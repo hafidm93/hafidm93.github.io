@@ -1,9 +1,11 @@
-html, body{max-width: 800px;width:100%;font-family: 'Montserrat', sans-serif;line-height: 26px;margin:auto}
+html{overflow: hidden;}
+body{max-width: 800px;width:100%;font-family: 'Montserrat', sans-serif;line-height: 26px;margin:auto}
 #resume {margin-top: 50px;height: 85vh;margin-bottom: 50px;}
 .full-height {height: 85vh;}
 .nav-item {padding:0 15px}
 
 @media (max-width: 768px) {
+    html {overflow: auto;}
      .full-height {height:auto} 
      #resume {margin-top: 0;height: auto;margin-bottom: 0}
     }
