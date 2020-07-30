@@ -35,15 +35,15 @@
     
   </head>
   <body class="indie">
-      <div id="resume"class="container white">
+      <div id="resume"class="container white rounded">
         <div class="row">
             <!-- LEFT -->
-            <div class="col-md-4 full-height cadet">
+            <div class="col-md-4 full-height cadet rounded-top">
                 <div class="cadet my-3">
                     <img src="https://cdn.statically.io/img/hafidm93.github.io/img/ava.jpg?quality=80&f=auto" height="150px" class="rounded-circle mx-auto d-block" >
                     <hr>
                     <h2 class="text-center">Hafid Maulana</h2>
-                    <h4 class="text-center">SEO - Content Writer - Web Design Enthusiast</h4>                   
+                    <h4 class="text-center">SEO - Content Writer<br>Web Design Enthusiast</h4>                   
                 </div>
                 <div class="row silver pb-3">
                     <div class="p-2 my-4">
@@ -58,7 +58,7 @@
                 </div>
 
                 
-                <div class="my-5 text-center align-items-end">
+                <div class="my-2 text-center align-items-end">
                     <nav class="nav justify-content-center">
                         <ul class="nav justify-content-center">
                             <li class="nav-item">
@@ -77,11 +77,13 @@
 
             <!-- RIGHT -->
             <div class="col-md-8 full-height white overflow-auto">
-                <div class="row mandarin text-center justify-content-center mb-3">
-                    <h2 class="text-center m-3">RESUME</h2>
+                <div class="row sticky-top mandarin text-center justify-content-center mb-3">
+                    <h2 class="text-center mt-1">RESUME</h2>
                 </div>
 
-                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dignissimos autem ipsum impedit, voluptatibus dolorem quaerat eaque expedita nobis et aliquid nihil nam velit at, deserunt fugiat voluptate, quidem rem?</p>
+                    <p class="text-justify">
+                        I have worked since becoming a student by looking for a side job as a blogger. At that time, I got a lot of prizes from various SEO competitions and writing competitions.</p>
+                        <p class="text-justify">I got my professional job in 2015, at the end of my education as a Content Writter. I am a person who is learning a lot in various fields, especially internet marketing. Having a passion for working in the internet such as SEO, Copywriting and Web Design.</p>
                     <h4 class="text-center justify-content-center my-2 text-uppercase"><i class="fa fa-book" aria-hidden="true"></i>
                         Education</h4>
                         <hr>
@@ -140,9 +142,16 @@
                         <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                     </div>
-                      <p class="my-5 text-center justify-content-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa beatae labore, veritatis quos saepe repudiandae. Esse fugiat, nulla cumque animi molestias dicta odit vitae nesciunt quo laudantium, in facilis. Dolor.</p>
+                      <p class="my-5 text-center justify-content-center">
+                          Thank You for your attention<br><br>
+                          <a href="mailto:maulanahafid@gmail.com" class="btn mandarin">Hire Me</a>
+                      </p>
+                </div>
+                <div class="w-100 text-center silver justify-content-center rounded-bottom">
+                    <p class="work"><i class="fa fa-copyright" aria-hidden="true"></i> <span id="year"></span> - <a href="mailto:maulanahafid@gmail.com">Hafid Maulana</a></p>
                 </div>
             </div>
+            
         </div>
       </div>
     <!-- Optional JavaScript -->
@@ -157,6 +166,9 @@
     
     document.getElementById("age").innerHTML = (calculate_age(new Date(1993, 12, 28)));
     
+    </script>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
     </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
