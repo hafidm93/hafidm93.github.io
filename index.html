@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="dist/main.css">
 </head>
 <body>
-    <header class="min-w-full xl:px-32 px-4 pb-16  bg-dark mx-auto text-white">
-        <nav class="container mx-auto flex items-center bg-dark flex-wrap py-6">
+    <header class="min-w-full xl:px-32 px-4 pb-16  bg-dark mx-auto text-white" role="header">
+        <nav class="container mx-auto flex items-center bg-dark flex-wrap py-6" role="navigation">
             <a href="#" class="p-2 mr-4 inline-flex items-center">
               <svg
                 viewBox="0 0 24 24"
@@ -45,8 +45,8 @@
               </div>
             </div>
         </nav>
-        <section id="resume" class="container h-auto md:min-h-screen mx-auto md:bg-profile bg-no-repeat bg-contain bg-bottom">
-            <div class="md:py-48 grid md:grid-cols-3 grid-cols-none gap-4">
+        <section id="resume" class="container h-auto md:min-h-screen mx-auto md:bg-profile bg-no-repeat bg-contain bg-bottom" role="resume">
+            <div class="md:pt-48 xl:pt-32 md:pb-36 xl:pb-0 xxl:pb-40 2xl:pb-36 grid md:grid-cols-3 grid-cols-none gap-4">
                 <div class="overflow-hidden md:p-5">
                     <h2 class="text-4xl">Hi,</h2><br>
                     <h2 class="text-5xl text-primary"><span class="text-white">I am</span> Hafid</h2>
@@ -70,8 +70,11 @@
                     <div class="py-5 text-secondary">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia aut, voluptas quod tenetur blanditiis perferendis labore suscipit quis at quasi explicabo
                     </div>
-                    <a class="text-third py-2 hover:px-5 border-b-2 border-secondary hover:border-opacity-5 hover:text-white hover:bg-primary rounded transition duration-100 ease-in-out " href="#">
+                    <a class="flex text-third py-2 hover:px-5 hover:border-opacity-5 hover:text-white hover:underline transition duration-100 ease-in-out " href="#">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0519 14.8285L13.4661 16.2427L17.7087 12L13.4661 7.7574L12.0519 9.17161L13.8803 11H6.34318V13H13.8803L12.0519 14.8285Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M1 19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5C2.79086 1 1 2.79086 1 5V19ZM5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21Z" fill="currentColor" />s</svg>
+                      <div class="pl-2">
                         Download CV
+                      </div>
                     </a>
                 </div>
             </div>
@@ -92,14 +95,20 @@
         </section>
     </header>
 
-    <main class="w-full bg-third min-h-screen">
-      <section id="content">
-
+    <main class="min-w-full mx-auto" role="main">
+      <section id="content" class="min-w-full bg-third min-h-screen py-20" role="content">
+        <div class="container mx-auto">
+          <div class="font-bold text-4xl text-center">Resume</div>
+        </div>
       </section>
     </main>
 
+    <footer id="footer" role="footer">
+
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="dist/main.js"></script>
     <script>
     $(document).ready(function() {
     $(".nav-toggler").each(function(_, navToggler) {
