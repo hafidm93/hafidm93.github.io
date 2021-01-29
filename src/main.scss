@@ -17,5 +17,27 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     display: inline-block;
 }
+.work::before {
+    content: "💻";
+    padding: 5px;
+    background-color: #FF206E;
+}
+.cap::before{
+    content: "🎓";
+    padding: 5px;
+    background-color: #FF206E;
+}
+.volunteer::before {
+    content: "⚙️";
+    padding: 5px;
+    background-color: #FF206E;
+}
+.cert::before {
+    content: "📋";
+    padding: 5px;
+    background-color: #FF206E
+}
 
-
+.topmenu {
+    display: block;
+}

@@ -14,3 +14,12 @@ let greeting;
         greeting = "🌙 Selamat Malam"
     }
     console.log(greeting)
+
+    function toggleSocial() {
+        const toggle = document.getElementById("socialMedia");
+        if (toggle.className === "hidden") {
+            toggle.className += "navmob";
+            } else {
+                toggle.className = "hidden";
+            }
+        }
