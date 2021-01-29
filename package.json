@@ -1,0 +1,29 @@
+{
+  "name": "hafidm93.github.io",
+  "version": "2.0.0",
+  "description": "hafid maulana resume",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.3",
+    "postcss-import": "^14.0.0",
+    "postcss-nested": "^5.0.3",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1"
+  },
+  "scripts": {
+    "build:css": "postcss src/main.scss -o dist/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafidm93/hafidm93.github.io.git"
+  },
+  "author": "@hafidm93",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hafidm93/hafidm93.github.io/issues"
+  },
+  "homepage": "https://github.com/hafidm93/hafidm93.github.io#readme"
+}
