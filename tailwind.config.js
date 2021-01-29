@@ -12,7 +12,7 @@ module.exports = {
       third: '#A15443',
       dark: '#000000', //#070707
       gray: '#4F4A43',
-      soft: '#758C90'
+      soft: '#0C0F0A'
      },
      screens: {
       'sm': '640px',
@@ -33,9 +33,14 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif'],
+      fredoka: ['Fredoka One', 'cursive'],
+    },
      extend: {
       backgroundImage: theme => ({
        'profile': "url('/asset/img/profile.jpg')",
+       '': "url('/asset/img/')",
       })
     }
   },

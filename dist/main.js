@@ -14,12 +14,3 @@ let greeting;
         greeting = "🌙 Selamat Malam"
     }
     console.log(greeting)
-
-    // toggle menu
-    function toggleMenu() {
-        let nav = document.getElementById("navigasi");
-        if (nav.className === "topmenu") {
-        nav.className += " navmob";
-        } else {
-        nav.className = "topmenu";
-    }

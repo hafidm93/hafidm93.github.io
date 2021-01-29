@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 html {
@@ -13,8 +13,9 @@ body {
     size: 16px;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Fredoka One', cursive;
+/*    font-family: 'Fredoka One', cursive; */
     font-weight: 400;
+    display: inline-block;
 }
 
 

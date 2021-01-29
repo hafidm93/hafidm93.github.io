@@ -47,9 +47,9 @@
         </nav>
         <section id="resume" class="container h-auto md:min-h-screen mx-auto md:bg-profile bg-no-repeat bg-contain bg-bottom" role="resume">
             <div class="md:pt-48 xl:pt-32 md:pb-36 xl:pb-0 xxl:pb-40 2xl:pb-36 grid md:grid-cols-3 grid-cols-none gap-4">
-                <div class="overflow-hidden md:p-5">
-                    <h2 class="text-4xl">Hi,</h2><br>
-                    <h2 class="text-5xl text-primary"><span class="text-white">I am</span> Hafid</h2>
+                <div class="overflow-hidden md:p-5 ">
+                    <h2 class="text-4xl font-fredoka">Hi,</h2><br>
+                    <h2 class="text-5xl text-primary font-fredoka"><span class="text-white">I am</span> Hafid</h2>
                     <p class="my-2">Web Developer & SEO Enthusiast</p>
                     <div class="py-5">
                         <a class="bg-primary rounded px-10 py-2 hover:bg-third transition duration-700 ease-in-out" href="#">
@@ -57,7 +57,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="">
+                <div class="content">
                     <img class="md:hidden" src="/asset/img/profile.jpg" alt="">
                 </div>
                 <div class="md:p-5 mb-20 md:mb-1">
@@ -78,7 +78,7 @@
                     </a>
                 </div>
             </div>
-            <a href="#">
+            <a href="#content">
               <div class="mx-auto bg-primary animate-bounce rounded w-8 h-8">
                 <svg
                   viewBox="0 0 24 24"
@@ -96,9 +96,48 @@
     </header>
 
     <main class="min-w-full mx-auto" role="main">
-      <section id="content" class="min-w-full bg-third min-h-screen py-20" role="content">
+      <section id="content" class="min-w-full min-h-screen xl:px-32 px-4 py-16  bg-soft mx-auto text-white" role="content">
         <div class="container mx-auto">
-          <div class="font-bold text-4xl text-center">Resume</div>
+          <div class="text-center">
+            <h3 class="font-bold font-fredoka text-4xl mb-16 text-primary ">Resume</h3>
+          </div>
+          <div class="grid md:grid-cols-2 grid-cols-none gap-20">
+            <div class="c" id="experience">
+              <div class="experience-list">
+                <h4 class="text-2xl font-medium font-fredoka text-white border-b-2 border-third  py-1 my-2">PT Provido Indo Digital</h4>
+                <p class="text-secondary text-lg">2019 - Now <span class="text-white"><em>as</em> Junior Web Developer</span></p>
+                <ul class="text-base text-secondary font-light my-2 list-outside list-disc px-6">
+                  <li>Responsible for developing main company website. Built using Laravel Framework and Bootstrap.</li>
+                  <li>Built landing page for client or campaign needed.</li>
+                  <li>Do server (CentOS 7) and web maintenance.</li>
+                </ul>
+              </div>
+              
+              <div class="experience-list">
+                <h4 class="text-2xl font-medium font-fredoka text-white border-b-2 border-third  py-1 my-2">PT Zgen Media Creative</h4>
+                <p class="text-secondary text-lg">Des 2016 - Sep 2019  <span class="text-white"><em>as</em> SEO & WordPress Maintenance</span></p>
+                <ul class="text-base text-secondary font-light my-2 list-outside list-disc px-6">
+                  <li>Responsible for developing main company website. Built using Laravel Framework and Bootstrap.</li>
+                  <li>Built landing page for client or campaign needed.</li>
+                  <li>Do server (CentOS 7) and web maintenance.</li>
+                </ul>
+              </div>
+
+              <div class="experience-list">
+                <h4 class="text-2xl font-medium font-fredoka text-white border-b-2 border-third  py-1 my-2">PT Provido Indo Digital</h4>
+                <p class="text-secondary text-lg">2019 - Now <em>as</em> <span class="text-white">Junior Web Developer</span></p>
+                <ul class="text-base text-secondary font-light my-2 list-outside list-disc px-6">
+                  <li>Responsible for developing main company website. Built using Laravel Framework and Bootstrap.</li>
+                  <li>Built landing page for client or campaign needed.</li>
+                  <li>Do server (CentOS 7) and web maintenance.</li>
+                </ul>
+              </div>
+
+            </div>
+            <div class="">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, deleniti consectetur! Delectus cum eveniet provident impedit facere, ipsam earum expedita, modi quas quisquam, accusantium eaque quia incidunt iste amet similique?
+            </div>
+          </div>
         </div>
       </section>
     </main>
